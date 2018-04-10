@@ -1,0 +1,26 @@
+{
+  "name": "homebridge-dyson360eye-robot-vacuum-cleaner",
+  "version": "1.0.5",
+  "description": "Homebridge plugin for Dyson 360 Eye Robot Vacuum Cleaner",
+  "license": "MIT",
+  "keywords": [
+    "homebridge-plugin",
+    "dyson",
+    "eye360"
+  ],
+  "engines": {
+    "node": ">=5.12.0",
+    "homebridge": ">=0.4.20"
+  },
+  "author": {
+    "name": "Loïc Monney"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/loicmonney/homebridge-dyson360eye-robot-vacuum-cleaner.git"
+  },
+  "dependencies": {
+    "mqtt": "^2.8.1",
+    "debug": "^2.6.1"
+  }
+}
